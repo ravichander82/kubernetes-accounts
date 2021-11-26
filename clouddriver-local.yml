@@ -1,7 +1,7 @@
  kubernetes:
       enabled: true
       accounts:
-      - name: my-k8s2-account
+      - name: my-k8s-account
         requiredGroupMembership: []
         permissions: {}
         dockerRegistries: []
@@ -21,7 +21,7 @@
           omitKindExpressions: []
         oAuthScopes: []
         onlySpinnakerManaged: false
-      primaryAccount: my-k8s2-account
+      primaryAccount: my-k8s-account
  caching:
    writeEnabled: true
  redis:
