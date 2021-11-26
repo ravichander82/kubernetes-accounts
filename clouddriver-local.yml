@@ -22,3 +22,8 @@
         oAuthScopes: []
         onlySpinnakerManaged: false
       primaryAccount: my-k8s2-account
+caching:
+  writeEnabled: true
+redis:
+  poll:
+    intervalSeconds: 300
